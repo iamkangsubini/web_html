@@ -10,6 +10,7 @@ address hr &lt; &gt; &copy; &amp;
 ```
 
 # 23/06/21~23/06/22 Layout Tag
+**HTML5 semantic Tag는 각 레이아웃 영역 의미에 맞게 사용해야 한다**
 ```
 div, span,
 header, nav, footer, main, section, article, aside,
