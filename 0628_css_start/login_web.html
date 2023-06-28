@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>로그인 | 웹접근성연구소</title>
+    <link href="./reset.css" rel="stylesheet">
+    <style>
+        /* 선택자 {속성:값;} */
+        /* header */
+        header {}
+        header #serch_frm {}
+        header #serch_frm fieldset {}
+        header #serch_frm fieldset legend {}
+        header #serch_frm fieldset input {}
+        header #serch_frm fieldset button {}
+        /* aside */
+        main {}
+        main aside {}
+        main aside h2 {}
+        main aside ul {}
+        main aside ul li {}
+        main aside ul li a {}
+        /* section */
+        main section {}
+        main section .title_path{}
+        main section .title_path h1{}
+        main section .title_path .bread_crumbs{}
+        /* login_box */
+        main section .contents {}
+        main section .contents .login_box {}
+        main section .contents .login_box h2 {}
+        main section .contents .login_box h2 em {}
+        main section .contents .login_box > p {}
+        main section .contents .login_box form {}
+        main section .contents .login_box form fieldset {}
+        main section .contents .login_box form fieldset legend {}
+        main section .contents .login_box form fieldset ul {}
+        main section .contents .login_box form fieldset ul li {}
+        main section .contents .login_box form fieldset ul li span {}
+        main section .contents .login_box form fieldset ul li input {}
+        main section .contents .login_box form fieldset p {}
+        main section .contents .login_box form fieldset p button {}
+        main section .contents .login_box .join_search {}
+        main section .contents .login_box .join_search a {}
+        /* info */
+        main section .contents #top_btn {}
+        main section .contents .web_info {}
+        main section .contents .web_info p {}
+        main section .contents .web_info p em {}
+    </style>
+</head>
+<body>
+    <header>
+        <form action="#" method="get" id="search_frm">
+            <fieldset>
+                <legend>검색양식</legend>
+                <input type="text" placeholder="검색어입력" name="user_search">
+                <button type="submit">검색</button>
+            </fieldset>
+        </form>
+    </header>
+    <main>
+        <aside>
+            <h2>회원관련</h2>
+            <ul>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">ID/PW 찾기</a></li>
+            </ul>
+        </aside>
+        <section>
+            <div class="title_path">
+                <h1>로그인</h1>
+                <p class="bread_crumbs">홈 &lt; 회원관련 &lt; 로그인
+                </p>
+            </div>
+            <div class="contents">
+                <div class="login_box">
+                    <h2>Member<em>Login</em></h2>
+                    <p>비회원이신 분은 아래 회원가입을 이용 바랍니다.</p>
+                    <form action="#" method="post">
+                        <fieldset>
+                            <legend>로그인양식</legend>
+                            <ul>
+                                <li>
+                                    <span>아이디</span>
+                                    <input type="text" name="user_id">
+                                </li>
+                                <li>
+                                    <span>비밀번호</span>
+                                    <input type="password" name="user_pw">
+                                </li>
+                            </ul>
+                            <p><button type="submit">로그인</button></p>
+                        </fieldset>
+                    </form>
+                    <div class="join_search">
+                        <a href="#">회원가입하기</a>
+                        <a href="#">아이디, 비밀번호 찾기</a>
+                    </div>
+                </div>
+                <a href="#" id="top_btn">위로</a>
+                <div class="web_info">
+                    <p>웹의 힘은 그것의 보편성에 있다. 장애에 구애없이 모든 사람이 접근할 수 있는 것이 필수적인 요소이다.</p>
+                    <p>(The power of the Web is in its universality, Access by everyone regardless of disability is an essential aspect.)</p>
+                    <p><em>버너스 리 경 - 웹의 창시자 (Tim Berners - Lee , W3C Director and inventor of the World Wide Web)</em></p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

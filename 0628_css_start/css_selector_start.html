@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>선택자 작성연습</title>
+    <!-- 외부스타일시트(CSS파일 별도분리) -->
+    <link href="./reset.css" rel="stylesheet">
+    <style>
+        #t tbody tr td, #t tfoot tr td em {font-size: 80px; background-color: lightslategray;}
+    </style>
+        /* reset */
+        * {
+            margin:0; /* 바깥쪽여백초기화 */
+            padding:0; /* 안쪽여백초기화 */
+            line-height:/* 1.0행간초기화 */
+            list-style:none; /* 목록태그 블록초기화 */
+            font-size:16px ;/* 글자크기 초기화 */
+            font-weight:normal;/* 글자굵기 초기화 */
+            color:#000;/* 글자 색상 초기화 */
+            text-decoration:none;/* 글자 장식 초기화 */
+            border-collapse:collapse;/* 이중선 초기화 */
+            font-style:normal;/* 기울기 초기화 */
+            border:0;/* 테두리 초기화 */
+            outline:none;/* input 활성화테두리 초기화 */
+        }
+        /* design */
+        table, tr, th,td {border:1px solid black;}
+    </style> --> -->
+</head>
+<body>
+    <!-- inline style == HTML 내 작성 css -->
+    <h1>ver0</h1>
+    <div class="test_box">
+        <h1>h1</h1>
+        <h2>h2</h2>
+        <h3>h3</h3>
+        <h4>h4</h4>
+        <h1 id="title1">h1-id</h1>
+        <h2 id="title2">h2-id</h2>
+        <p>p1</p>
+        <p>p2</p>
+        <p>p3</p>
+        <blockquote cite="#">blockquote</blockquote>
+        <p><span>span</span></p>
+        <p><q cite="#">q</q></p>
+        <p><code claas="test1">code</code></p>
+        <p class="test1"><sup>sup</sup><br><sub>sub</sub></p>
+        <div class="test1">test1-div</div>
+        <div class="test2">test2-div</div>
+        <div class="test3 test">test3-div</div>
+        <div class="test4 test">test4-div</div>
+        <div id="wrap"><p>wrap-div</p></div>
+    </div>
+    <hr>
+    <h1>ver1</h1>
+    <header>
+        <h1>logo</h1>
+        <form action="#">
+            <input type="text" name="id">
+            <input type="text" name="pw">
+        </form>
+        <a href="#">lnb</a>
+    </header>
+    <hr>
+    <h1>ver2</h1>
+    <div class="box">
+        <a href="#"><span>link</span></a>
+        <div class="contents">
+            <p>contents3</p>
+            <h2>title</h2>
+            <p>contents1</p>
+            <p>contents2</p>
+        </div>
+        <div class="img"><img src="#" alt=""></div>
+    </div>
+    <hr>
+    <h1>ver3</h1>
+    <main>
+        <aside>
+            <h2>title</h2>
+            <ul>
+                <li><a href="#">menu1</a></li>
+                <li><a href="#">menu2</a></li>
+                <li><a href="#">menu3</a></li>
+                <li class="last"><a href="#">menu4</a></li>
+            </ul>
+        </aside>
+        <section>
+            <div class="top">
+                <h1>main_title</h1>
+                <p>path</p>
+                <span>메롱</span>
+            </div>
+            <article>
+                <p>contents</p>
+            </article>
+        </section>
+    </main>
+    <hr>
+    <h1>ver4</h1>
+    <table id="t">
+        <thead>
+            <tr>
+                <th>title1</th>
+                <th>title2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>cell1</td>
+                <td><span>cell2</span></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>total</th>
+                <td><em>cell</em></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
