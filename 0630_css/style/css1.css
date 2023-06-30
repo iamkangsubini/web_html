@@ -1,0 +1,59 @@
+/* 로컬글꼴 연결법 */
+/*  */
+/* 웹글꼴 연결법 */
+/* 구글폰트 접속 > 글꼴선택 > link or import 글꼴주소가져오기 > font-family글꼴연결 */
+dl {
+    font-size: 2rem;/* 32px */
+    font-size: 3rem;
+    color: rgba(0,0,0,0.5);
+}
+dl dt {
+    background-color: rgba(255,183,244,0.7);
+    font-size: 1.5rem;
+}
+dl dt em {
+    display: none;
+    background-color: #000; color:#fff;
+    font-family: 'Jua', sans-serif;
+}
+dl dd {
+    background-color: khaki;
+}
+dl dd span {
+    display: block; 
+    background-color: #000; color: #fff;
+    font-family: 'Gamja Flower', cursive;
+}
+.f12 {
+    display: inline;
+    background-color: lightblue;
+    word-spacing: -0.15em;
+    letter-spacing: -0.02em;
+    font-size: 1.25rem;/* 20px */
+    line-height: 2;/* 1.0==100% */
+    /* font-size의 px값 기준 설정이 불편할 경우 상대값 기준으로 line-height을 처리한다.(100%기준) */
+    /* line-height: 30px; */
+    /* line-height를 px로 작성할 경우는 font-size의 px값 기준으로 값이 결정된다. */
+}
+.overflow {
+    background-color: rgba(0,0,0,0.2);
+    font-size: 1.25rem;
+    width: 400px;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+#a {
+    background-color: darkorange;
+    width: 500px; height: 500px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+#a #b {
+    margin: 0 10px 0;
+    border: 3px solid #ffff00;
+    font-size: 5rem;
+    background-color: dimgray;
+    width: 50%; height: 300px;
+    /* 자식요소의 크기를 입력 시에는 반드시 부모 요소보다 작거나 같아야 한다. */
+}
