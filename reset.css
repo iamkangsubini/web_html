@@ -9,8 +9,9 @@ section,video,table,thead,tbody,tfoot,tr,th,td,ul,ol,li,dl,dt,dd,
 form,fieldset,legend,input,select,option,button,label,textarea 
     {
     margin:0; padding:0; line-height:1.0;
-    font-size:16px; font-style:normal; font-weight:normal; text-align:left; text-decoration:none;
+    font-size:16px; font-style:normal; font-weight:normal; text-decoration:none;
 }
+th {text-align:left;}
 table,tr,th,td {border-collase:collapse;}
 ul,ol,li {list-style:none;}
 a {color:#000}
