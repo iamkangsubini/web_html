@@ -1,0 +1,79 @@
+header {
+    background-color: antiquewhite;
+    
+    width:1200px;
+    height:92px;
+    margin:0 auto;
+}
+header h1 {
+    background-color: cadetblue;
+    float:left;
+    width:60px;
+    height:70px;
+    margin:11px 0 0 20px;
+}
+header h1 a {}
+header h1 a img {
+    width:100%;
+}
+/* header nav */
+header nav {
+    background-color: cornflowerblue;
+    float:left; 
+    margin:39.5px 0 0 241.5px;
+}
+header nav ul {}
+header nav ul .active {}
+header nav ul li {
+    background-color: darksalmon;
+    float:left;
+}
+header nav ul li a {
+    padding-right:40px;
+    font-size:1.2rem;
+}
+header nav ul li:last-child a {
+    padding-right:0;
+}
+/* header .lnb */
+header .lnb {
+    background-color: gray;
+    float:right;
+    margin:36.25px 20px 0 0;
+}
+header .lnb li {
+    background-color: lightpink;
+    float:left;
+    margin-right:20px;
+}
+header .lnb li:last-child {
+    margin-right:0;
+}
+header .lnb li a {
+    font-size:1.2rem;
+}
+header .lnb li span {
+    background-color: aqua;
+    width:1px;
+    height:19.5px;
+    display:block;
+}
+main {
+    background-color: lightblue;
+}
+main .path_bg {
+    background-color: lightslategrey;
+}
+main .path_bg .path {
+    background-color: rgb(226, 250, 139);
+    width:1200px;
+    height:58px;
+    margin:0 auto;
+    text-align:right;
+    padding:23.5px 20px 0 0;
+}
+main .path_bg .path a {
+}
+main .path_bg .path em {
+    font-weight:700;
+}
