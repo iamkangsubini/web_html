@@ -1,0 +1,99 @@
+header {
+    background-color: blanchedalmond;
+    width:1200px;
+    height:92px;
+    margin:0 auto;
+}
+header h1 {
+    background-color: burlywood;
+    width:60px;
+    height:70px;
+    float:left;
+    margin:11px 0 0 20px;
+ 
+}
+header h1 a {}
+header h1 a img {
+    width:100%;
+}
+/* header nav */
+header nav {
+    background-color: dodgerblue;
+    float:left;
+    margin:39.5px 0 39.5px 241.5px;
+}
+header nav ul {
+    background-color: darksalmon;
+}
+header nav ul .active {}
+header nav ul .active a {
+    color:#36b4e5;
+}
+header nav ul li {
+    background-color: lightpink;
+    float:left;
+}
+header nav ul li a {
+    padding-right:40px;
+    font-size:1.2rem;
+}
+header nav ul li:last-child a {
+    padding-right:0;
+}
+/* header lib */
+header .lnb {
+    background-color: lightblue;
+    float:right;
+    margin:36.25px 20px 0 0;
+}
+header .lnb li {
+    background-color: darkgoldenrod;
+    float:left;
+    margin-right:20px;
+}
+header .lnb li:last-child {
+    margin-right:0;
+}
+header .lnb li a {
+    font-size:1.2rem;
+}
+header .lnb li span {
+    background-color: gold;
+    width:1px;
+    height:19.5px;
+    display:block;
+    margin-top:3px;
+}
+main {}
+main .path_bg {
+    background-color: indianred;
+}
+main .path_bg .path {
+    background-color: lightseagreen;
+    width:1200px;
+    height:58px;
+    margin:0 auto;
+    text-align:right;
+    padding:23.5px 20px 0 0;
+}
+main .path_bg .path a {}
+main .path_bg .path em {
+    font-weight:700;
+}
+main .contents1 {
+    background-color: darksalmon;
+    width:1200px;
+    margin:0 auto;
+    padding:70px 0;
+    text-align:center;
+}
+main .contents1 h1 {
+    font-size:2.074rem;
+    font-weight:500;
+    letter-spacing:-0.02em;
+    margin-bottom:40px;
+}
+main .contents1 h1 p {
+    font-size:1.2rem;
+    letter-spacing:-0.02em;
+}

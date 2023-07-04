@@ -1,0 +1,249 @@
+/* header */
+header {
+    width:1200px;
+    height:92px;
+    margin:0 auto;
+}
+header h1 {
+    width:60px;
+    height:70px;
+    float:left;
+    margin:11px 0 0 20px; 
+}
+header h1 a {}
+header h1 a img {
+    width:100%;
+}   
+ /*img태그는 인라인요소이지만 px크기를 절대값으로 가진다. 그래서 부모요소의 크기가 변경되도 자동으로 따라오지 않기 때문에 width:100%; 속성으로 상대값으로 변경하여 부모의 px을 상대적으로 인식하게 하는 경우가 많다. */
+/* header nav */
+header nav {
+    margin:39.5px 0 0 241.5px;
+    float:left;
+}
+header nav ul {}
+header nav ul li {
+    float:left;
+}
+header nav ul li a {
+    padding-right:40px;
+    font-size:1.2rem;
+}
+header nav ul li:last-child a {
+    padding-right:0;
+}
+header nav ul .active a{
+    color:#36b4e5;
+}
+/* header lnb */
+header .lnb {
+    float:right;
+    margin:36.25px 20px 0 0;
+}
+header .lnb li {
+    float:left;
+    margin-right:20px;
+} 
+header .lnb li:last-child {
+    margin-right:0;
+}
+/* 모든 li에 반복적으로 들어간 margin 또는 padding값에서 마지막 여백값만 빼는 방법 */
+header .lnb li a {
+    font-size:1.2rem;
+}
+header .lnb li span {
+    width:1px;
+    height:13px;
+    display:block;
+    margin-top:3px;
+}
+/* main */
+main {}
+main .path_bg {
+    background-color: #f1f1f1;
+    /* 방법1 */
+    border-top:1px solid #aaa;
+    border-bottom:1px solid #aaa;
+    /* 방법2
+    boder:1px solid #aaa;
+    border-left:0;
+    border-right:0; */
+    /* width:100%;  > 블록자체가 너비 100%라 안써도 됨 */
+}
+main .path_bg .path {
+    width:1200px;
+    height:58px;
+    margin:0 auto;
+    /* 정렬대상이 모두 인라인이고 한 방향 수평 정렬일 경우 정렬대상의 부모요소한테 text-align을 사용한다. */
+    text-align:right;
+    padding:23.5px 20px 0 0;    
+}
+main .path_bg .path a {}
+main .path_bg .path em {
+    font-weight:700;
+}
+/* contents1 경영이념 */
+main .contents1 {
+    width:1200px;
+    padding:70px 0;
+    margin:0 auto;
+    text-align:center;
+}
+main .contents1 h1 {
+    font-size:2.074rem;
+    font-weight:500;
+    letter-spacing:-0.02em;
+    margin-bottom:40px;
+}
+main .contents1 p {
+    font-size:1.2rem;
+    letter-spacing:-0.02em;
+}
+/* contents2 */
+main .c2_bg {
+    background-color:#f1f1f1;
+}
+main .c2_bg .contents2 {
+    margin:0 auto;
+    padding:70px 0;
+    text-align:center;
+}
+main .c2_bg .contents2 p {
+    line-height:35px;
+    font-size:1.2rem;
+    letter-spacing:-0.02em;  
+}
+/* contents3 비전영역*/
+main .contents3 {
+    width:1200px;
+    margin:0 auto;
+    text-align:center;
+    padding:70px 0 71px 0;
+}
+main .contents3 h2 {
+    margin-bottom:50px;
+    font-size:2.074rem;
+    font-weight:500;
+    letter-spacing:-0.02em;
+    color:#36b4e5;
+}
+main .contents3 h2+p {
+    margin-bottom:50px;
+    font-size:1.728rem;
+    line-height :45px;
+    letter-spacing:-0.02em;}
+main .contents3 p:nth-child(2) {
+    margin-bottom:50px;
+}
+/* contents4 */
+main .c4_bg {
+    background-color:#f1f1f1;
+}
+main .c4_bg .contents4 {
+    width:1200px;
+    margin:0 auto;
+    padding:70px 0;
+    text-align:center;
+}
+main .c4_bg .contents4 h2 {
+    font-size:2.074rem;
+    font-weight:500;
+    padding-bottom:60px;
+}
+/* goal ul-li */
+main .c4_bg .contents4 ul {}
+main .c4_bg .contents4 ul:nth-child(2) {}
+main .c4_bg .contents4 ul:nth-child(2) li {
+    background-color: #fff;
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    display: inline-block;
+    line-height:250px;
+    font-size:2.074rem;
+    margin-left:-15px;
+    box-shadow: 0 0 10px rgba(0,0,0,15);
+    margin-bottom:60px;
+}
+main .c4_bg .contents4 ul:nth-child(2) li:nth-child(1) {
+    background-color: #36b4e5;
+}
+main .c4_bg .contents4 ul:nth-child(2) li:nth-child(3) {
+    background-color: #f3c300;
+}
+/* strategy ul-li */
+main .c4_bg .contents4 ul li {}
+main .c4_bg .contents4 ul:nth-child(4) {}
+main .c4_bg .contents4 ul:nth-child(4) li {background-color:#fff;
+    width:180px; height:180px; border-radius:50%; display: inline-block;
+    padding-top:60px; margin-left:-15px; box-shadow: 0 0 10px rgba(0,0,0,15);
+}
+main .c4_bg .contents4 ul:nth-child(4) li h3 {
+    font-size:1.2rem;
+    font-weight:500 ;
+    padding-bottom:15px;
+}
+main .c4_bg .contents4 ul:nth-child(4) li p {}
+main .c4_bg .contents4 ul li h3 {}
+main .c4_bg .contents4 ul li p {}
+/* footer */
+footer {}
+footer .f_top {
+    width:1200px;
+    height:60px;
+    margin:0 auto;
+}
+footer .f_top .fnb {
+    float:left;
+    margin:23px 0 0 20px;
+}
+footer .f_top .fnb ul {}
+footer .f_top .fnb ul li {
+    float:left;
+}
+footer .f_top .fnb ul li a {
+    margin-right:30px;
+    font-size:1.2rem;
+    font-weight:500;
+    letter-spacing:-0.02em;
+}
+footer .f_top .fnb ul li:last-child a {
+    margin-right:0;
+}
+footer .f_top .site {
+    float:right;
+    margin:13px 20px 0 0;
+}
+footer .f_top .site li {
+    float:left;
+    border:1px solid #000;
+    margin-right:10px;
+}
+footer .f_top .site li:last-child {
+    margin-right:0;
+}
+footer .f_top .site li a {
+    display:block;
+    padding:10px 20px;
+    font-size:1.2rem;
+    font-weight:500;
+    letter-spacing:-0.02;
+    padding:10px 20px 10px 20px;
+}
+footer .f_btm {
+    width:1200px;
+    margin:0 auto;
+    padding:70px 0;
+}
+footer .f_btm address {
+    line-height:40px;
+    margin-bottom:50px;
+    font-size:1.2rem;
+    font-weight:500;
+    letter-spacing:-0.02em;
+}
+footer .f_btm p {
+    clear:both;
+    font-size:1.2rem;
+    font-weight:500;
+    letter-spacing:-0.02em;
+}
