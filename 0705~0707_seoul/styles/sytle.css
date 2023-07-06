@@ -1,0 +1,184 @@
+/* header-h top */ 
+header {
+    background-color: antiquewhite;
+}
+header #h_top {
+    background-color: chocolate;
+}
+header #h_top .left {
+    background-color: darkgrey;
+}
+header #h_top .left h1 {}
+header #h_top .left h1 a {}
+header #h_top .left h1 a img {}
+header #h_top .left nav {
+    background-color: lightgoldenrodyellow;
+}
+header #h_top .left nav ul {}
+header #h_top .left nav ul li {}
+header #h_top .left nav ul li a {}
+header #h_top .right {
+    background-color: orange;
+}
+header #h_top .right li {}
+header #h_top .right li a {}
+/* header-h btm */
+header .h_btm {
+    background-color: lightpink;
+}
+header .h_btm h1 {}
+header .h_btm h1 a {}
+header .h_btm h1 a img {}
+header .h_btm .search_frm {
+    background-color: lightseagreen;
+}
+header .h_btm .search_frm fieldset {
+    background-color: cornflowerblue;
+}
+header .h_btm .search_frm fieldset legend {}
+header .h_btm .search_frm fieldset input {
+    background-color: lightcoral;
+}
+header .h_btm .search_frm fieldset #search_btn {}
+header .h_btm .search_frm fieldset #search_btn img {}
+header .h_btm .right {
+    background-color: powderblue;
+}
+header .h_btm .right #lang_frm {
+    background-color: yellow;
+}
+header .h_btm .right #lang_frm fieldset {}
+header .h_btm .right #lang_frm fieldset legend {}
+header .h_btm .right #lang_frm fieldset select {}
+header .h_btm .right #lang_frm fieldset select option {}
+header .h_btm .right #lang_frm fieldset #langage_btn {
+    background-color: blanchedalmond;
+}
+header .h_btm .right .weather {
+    background-color: lightcoral;
+}
+header .h_btm .right .weather .current_weather {}
+header .h_btm .right .weather .current_weather em {}
+header .h_btm .right .weather .current_dust {}
+/* main */
+main {}
+/* main-1광고배너 */
+main .bnr {background-color: coral;}
+main .bnr .left {
+    background-color: ivory;
+}
+main .bnr .left img {}
+main .bnr .left .close {}
+main .bnr .right {
+    background-color: thistle;
+}
+main .bnr .right .corona {
+    background-color: cadetblue;
+}
+main .bnr .right .corona .date {}
+main .bnr .right .corona .data {}
+main .bnr .right .corona .data .data1 {}
+main .bnr .right .corona .data .data2 {}
+main .bnr .right .corona .data .data3 {}
+main .bnr .right .corona .data .data4 {}
+main .bnr .right .corona .data .data5 {}
+main .bnr .right .corona img {}
+main .bnr .right .traffic {}
+main .bnr .right .traffic img {}
+/* main-2주요서비스 */
+main .service {
+    background-color: lightslategrey;
+}
+main .service .title {}
+main .service .title h2 {}
+main .service .title .site {}
+main .service .contents {}
+main .service .contents a {}
+main .service .contents a img {}
+main .service .contents a span {}
+/* main-3배너 */
+main .bnr_bg {
+    background-color: darksalmon;
+}
+main .bnr_bg .bnr {
+    background-color: rgb(255, 121, 166);
+}
+main .bnr_bg .bnr a {}
+main .bnr_bg .bnr a img {}
+/* main-4게시판 */
+main .board {
+    background-color: rgb(253, 177, 150);
+}
+main .board .event {
+    background-color: rgb(69, 180, 180);
+}
+main .board .event .title {}
+main .board .event .title h2 {}
+main .board .event .title h2 .more {}
+main .board .event .contents {}
+main .board .event .contents a {}
+main .board .event .contents a span {}
+main .board .event .contents a .administrative {}
+main .board .event .contents a .environment {}
+main .board .event .contents a .welfare {}
+main .board .event .contents a .housing {}
+main .board .event .contents a .culture {}
+main .board .festival {
+    background-color: rgb(61, 109, 199);
+}
+main .board .festival .title {}
+main .board .festival .title h2 {}
+main .board .festival .title h2 .more {}
+main .board .festival .contents {}
+main .board .festival .contents a {}
+main .board .festival .contents a span {}
+main .board .festival .contents a span .environment {}
+main .board .festival .contents a span .economy {}
+main .board .festival .contents a span .culture {}
+main .board .service {
+    background-color: rgb(223, 160, 83);
+}
+main .board .service .title {}
+main .board .service .title h2 {}
+main .board .service .contents {}
+main .board .service .contents a {}
+/* main-5분야정보 */
+main .information {
+    background-color: rgb(182, 103, 93);
+}
+main .information .title {}
+main .information .title h2 {}
+main .information .contents {
+    background-color: rgb(255, 135, 91);
+}
+main .information .contents a {}
+main .information .contents a img {}
+main .information .contents a span {}
+/* main-6새소식 */
+main .news {
+    background-color: rgb(248, 191, 106);
+}
+main .news .title {}
+main .news .title h2 {}
+main .news .title h2 .more {}
+main .news .contents {}
+main .news .contents a {}
+main .news .contents a img {}
+main .news .contents a span {}
+/* footer-f top */
+footer {}
+footer .top {}
+footer .top .left {}
+footer .top .left a {}
+footer .top .right {}
+footer .top .right a {}
+/* footer-f btm */
+footer .bottom {}
+footer .bottom .left {}
+footer .bottom .left p {}
+footer .bottom .left p img {}
+footer .bottom .left address {}
+footer .bottom .left address a {}
+footer .bottom .right {}
+footer .bottom .right a {}
+footer .bottom .right a img {}
