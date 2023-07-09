@@ -1,36 +1,96 @@
+/* all layout */
+header .h_miidle,
+header .h_bottom,
+main .contents2, 
+main .contents3,
+main .c4_bg .contents4,
+footer{
+    background-color: blanchedalmond;
+    width: 1300px;
+    margin: 0 auto;
+}
 /* header */
 header {}
 /* h_top */
-header .h_top_bg {} 
-header .h_top_bg .h_t_contents {} 
-header .h_top_bg .h_t_contents a {} 
-header .h_top_bg .h_t_contents a em {} 
+header .h_top_bg {
+    background-color: #ccc;} 
+header .h_top_bg .h_t_contents {
+    background-color: rgb(104, 235, 235);
+    width: 1440px;
+    height: 36px;
+} 
+header .h_top_bg .h_t_contents a {
+    background-color: rgb(20, 148, 148);
+    margin: 12px 430px;
+    text-align: center;
+} 
+header .h_top_bg .h_t_contents a em {
+    letter-spacing: -0.02em;
+    font-weight: 700;} 
 /* h_middle */
-header .h_middle {}
-header .h_middle h1 {}
+header .h_middle {
+    background-color: rgb(255, 172, 141);
+    padding: 40px 0;
+
+}
+header .h_middle h1 {
+    background-color: rgb(141, 189, 231);
+    float: left;
+    width: 130px;
+    height: 19px;
+    margin: 40.5px 0 0 596px; 
+
+}
 header .h_middle h1 a {}
-header .h_middle h1 a img {}
+header .h_middle h1 a img {
+    width: 100%;
+}
 /* nav */
-header .h_middle #nav {}
+header .h_middle #nav {
+    float: right;
+    margin: 51px 27px 0 0;
+}
 header .h_middle #nav .gnb_left {}
 header .h_middle #nav .gnb_left ul {}
-header .h_middle #nav .gnb_left ul li {}
-header .h_middle #nav .gnb_left ul li a {}
+header .h_middle #nav .gnb_left ul li {
+    background-color: darkgoldenrod;
+    float: left;
+}
+header .h_middle #nav .gnb_left ul li a {
+    font-size: 0.833rem;
+    letter-spacing: -0.02em;}
+    padding-right:15px;
 header .h_middle #nav .gnb_left ul li p {}
 header .h_middle #nav .gnb_left ul li p a {}
 header .h_middle #nav .gnb_right {}
-header .h_middle #nav .gnb_right ul {}
-header .h_middle #nav .gnb_right ul li {}
-header .h_middle #nav .gnb_right ul li a {}
-header .h_middle #nav .gnb_right ul li a img {}
+header .h_middle #nav .gnb_right ul {
+    margin: 40px 0 0 0 ;
+}
+header .h_middle #nav .gnb_right ul li {
+    background-color: rgb(188, 235, 141);
+    float: left;
+}
+header .h_middle #nav .gnb_right ul li a {
+    width: 16px;
+    height: 16px;
+    padding-right: 15px;
+}
+header .h_middle #nav .gnb_right ul li:last-child a {
+    padding-right: 0;
+}
+header .h_middle #nav .gnb_right ul li a img {
+    width: 100%;
+}
 /* h_bottom */
-header .h_bottem {}
+header .h_bottem {
+    height: 50px;
+    margin: 20px 0 0 258px;
+}
 /* lnb */
 header .h_bottem .lnb {}
-header .h_bottem .lnb ul {}
-header .h_bottem .lnb ul li {}
-header .h_bottem .lnb ul li a {}
-
+header .h_bottem .lnb li {
+    float: left;}
+header .h_bottem .lnb li a {}
 /* main */
 main {}
 /* aside */
@@ -39,104 +99,177 @@ main .aside a {}
 main .aside a img {}
 /* contents1 */
 main .c1_bg {}
-main .c1_bg a {}
-main .c1_bg a img {}
+main .c1_bg a {
+    width: 1440px;
+    height: 528px;}
+main .c1_bg a img {
+    width: 100%;
+}
 /* contents2 */
-main .contents2 {}
+main .contents2 {
+    padding: 70px 0; 
+}
 main .contents2 .bnr_detail1 {}
-main .contents2 .bnr_detail1 li {}
+main .contents2 .bnr_detail1 li {
+    display: inline-block;
+    float: left;
+    width: 416px;
+    height: 305px;
+}
 main .contents2 .bnr_detail1 li a {}
-main .contents2 .bnr_detail1 li a img {}
+main .contents2 .bnr_detail1 li a img {
+    width: 100%;
+}
 /* contents3 */
 main .contents3 {}
-main .contents3 h1 {}
+main .contents3 .item_title {
+    background-color: aquamarine;
+    height: 116px;
+}
+main .contents3 .item_title h1 {
+    margin: 10px 0 0 596.5px;
+    font-weight: 500;
+    letter-spacing: -0.02px;
+}
 main .contents3 .item {}
-main .contents3 .item .item_top {}
+/* item_top */
+main .contents3 .item .item_top {
+    float: left;
+}
 /* item1 */
-main .contents3 .item .item_top .item1 {}
-main .contents3 .item .item_top .item1 a {}
-main .contents3 .item .item_top .item1 a img {}
-main .contents3 .item .item_top .item1 h2 {}
-main .contents3 .item .item_top .item1 p {}
-main .contents3 .item .item_top .item1 p em {}
-main .contents3 .item .item_top .item1 .item_info1 {}
-main .contents3 .item .item_top .item1 .item_info1 span {}
-main .contents3 .item .item_top .item1 .item_info1 strong {}
-main .contents3 .item .item_top .item1 .item_info2 {}
-main .contents3 .item .item_top .item1 .item_info2 span {}
-/* item2 */
+main .contents3 .item .item_top .item1 {
+    background-color: rgb(187, 119, 119);
+    width: 425px;
+    height: 550px;
+    padding-bottom: 21px;
+}
+main .contents3 .item .item_top .item1 a {
+    width: 425px;
+    height: 303px;
+}
+main .contents3 .item .item_top .item1 a img {
+    width: 100%;
+}
+main .contents3 .item .item_top .item1 h2 {
+    letter-spacing: -0.02em ;
+    margin: 21px 51px 20px 0;
+}
+main .contents3 .item .item_top .item1 p {
+    background-color: antiquewhite;
+    margin: 0 341px 55px 0;
+}
+main .contents3 .item .item_top .item1 p em {
+    font-size: 1.2rem ;
+    font-weight: 700;
+}
+main .contents3 .item .item_top .item1 .item1_info1 {}
+main .contents3 .item .item_top .item1 .item1_info1 span {
+    background-color: cadetblue;
+    float: left;
+    letter-spacing: -0.02em;
+    margin: 21px 0 0 0;
+}
+main .contents3 .item .item_top .item1 .item1_info1 strong {
+    float: right;
+    letter-spacing: -0.02em;
+    font-size: 1.2rem;
+    margin:  20px  0 0 0;
+}
+main .contents3 .item .item_top .item1 .item1_info2 {
+    float: left;
+    clear: both;
+}
+main .contents3 .item .item_top .item1 .item1_info2 span {
+    float: left;
+}
+main .contents3  .item_top .item1 .item1_info2 span:nth-child(1) {
+    background: #ffe4c4;
+    padding: 6px 1px;
+    color: #fff;
+    margin: 27px 0 0 1px;
+}
+main .contents3  .item_top .item1 .item1_info2 span:nth-child(2) {
+    background: #000090;
+    padding: 6px 4px;
+    color: #fff;
+    margin: 27px 0 0 11px;
+}
+/* itme2 */
 main .contents3 .item .item_top .item2 {}
 main .contents3 .item .item_top .item2 a {}
 main .contents3 .item .item_top .item2 a img {}
 main .contents3 .item .item_top .item2 h2 {}
 main .contents3 .item .item_top .item2 p {}
 main .contents3 .item .item_top .item2 p em {}
-main .contents3 .item .item_top .item2 .item_info1 {}
-main .contents3 .item .item_top .item2 .item_info1 span {}
-main .contents3 .item .item_top .item2 .item_info1 strong {}
-main .contents3 .item .item_top .item2 .item_info2 {}
-main .contents3 .item .item_top .item2 .item_info2 span {}
-/* item3 */
+main .contents3 .item .item_top .item2 .item2_info1 {}
+main .contents3 .item .item_top .item2 .item2_info1 span {}
+main .contents3 .item .item_top .item2 .item2_info1 strong {}
+main .contents3 .item .item_top .item2 .item2_info2 {}
+main .contents3 .item .item_top .item2 .item2_info2 span {}
+/* itme3 */
 main .contents3 .item .item_top .item3 {}
 main .contents3 .item .item_top .item3 a {}
 main .contents3 .item .item_top .item3 a img {}
 main .contents3 .item .item_top .item3 h2 {}
 main .contents3 .item .item_top .item3 p {}
 main .contents3 .item .item_top .item3 p em {}
-main .contents3 .item .item_top .item3 .item_info1 {}
-main .contents3 .item .item_top .item3 .item_info1 span {}
-main .contents3 .item .item_top .item3 .item_info1 strong {}
-main .contents3 .item .item_top .item3 .item_info2 {}
-main .contents3 .item .item_top .item3 .item_info2 span {}
+main .contents3 .item .item_top .item3 .item3_info1 {}
+main .contents3 .item .item_top .item3 .item3_info1 span {}
+main .contents3 .item .item_top .item3 .item3_info1 strong {}
+main .contents3 .item .item_top .item3 .item3_info2 {}
+main .contents3 .item .item_top .item3 .item3_info2 span {}
+/* item_bottom */
+main .contents3 .item .item_bottom {
+    float: left;
+}
 /* item4 */
-main .contents3 .item .item_top .item4 {}
-main .contents3 .item .item_top .item4 a {}
-main .contents3 .item .item_top .item4 a img {}
-main .contents3 .item .item_top .item4 h2 {}
-main .contents3 .item .item_top .item4 p {}
-main .contents3 .item .item_top .item4 p em {}
-main .contents3 .item .item_top .item4 .item_info1 {}
-main .contents3 .item .item_top .item4 .item_info1 span {}
-main .contents3 .item .item_top .item4 .item_info1 strong {}
-main .contents3 .item .item_top .item4 .item_info2 {}
-main .contents3 .item .item_top .item4 .item_info2 span {}
+main .contents3 .item .item_bottom .itme4 {}
+main .contents3 .item .item_bottom .itme4 a {}
+main .contents3  .item .item_bottom .itme4 a img {}
+main .contents3 .item .item_bottom .itme4 h2 {}
+main .contents3 .item .item_bottom .itme4 p {}
+main .contents3 .item .item_bottom .itme4 p em {}
+main .contents3 .item .item_bottom .itme4 .item4_info1 {}
+main .contents3 .item .item_bottom .itme4 .item4_info1 span {} 
+main .contents3 .item .item_bottom .itme4 .item4_info1 strong {} 
+main .contents3 .item .item_bottom .itme4 .item4_info2 {} 
+main .contents3 .item .item_bottom .itme4 .item4_info2 span {} 
 /* item5 */
-main .contents3 .item .item_top .item5 {}
-main .contents3 .item .item_top .item5 a {}
-main .contents3 .item .item_top .item5 a img {}
-main .contents3 .item .item_top .item5 h2 {}
-main .contents3 .item .item_top .item5 p {}
-main .contents3 .item .item_top .item5 p em {}
-main .contents3 .item .item_top .item5 .item_info1 {}
-main .contents3 .item .item_top .item5 .item_info1 span {}
-main .contents3 .item .item_top .item5 .item_info1 strong {}
-main .contents3 .item .item_top .item5 .item_info2 {}
-main .contents3 .item .item_top .item5 .item_info2 span {}
+main .contents3 .item .item_bottom .itme5 {}
+main .contents3 .item .item_bottom .itme5 a {}
+main .contents3 .item .item_bottom .itme5 a img {}
+main .contents3 .item .item_bottom .itme5 h2 {}
+main .contents3 .item .item_bottom .itme5 p {}
+main .contents3 .item .item_bottom .itme5 p em {}
+main .contents3 .item .item_bottom .itme5 .item5_info1 {}
+main .contents3 .item .item_bottom .itme5 .item5_info1 span {} 
+main .contents3 .item .item_bottom .itme5 .item5_info1 strong {} 
+main .contents3 .item .item_bottom .itme5 .item5_info2 {} 
+main .contents3 .item .item_bottom .itme5 .item5_info2 span {} 
 /* item6 */
-main .contents3 .item .item_top .item6 {}
-main .contents3 .item .item_top .item6 a {}
-main .contents3 .item .item_top .item6 a img {}
-main .contents3 .item .item_top .item6 h2 {}
-main .contents3 .item .item_top .item6 p {}
-main .contents3 .item .item_top .item6 p em {}
-main .contents3 .item .item_top .item6 .item_info1 {}
-main .contents3 .item .item_top .item6 .item_info1 span {}
-main .contents3 .item .item_top .item6 .item_info1 strong {}
-main .contents3 .item .item_top .item6 .item_info2 {}
-main .contents3 .item .item_top .item6 .item_info2 span {}
+main .contents3 .item .item_bottom .itme6 {}
+main .contents3 .item .item_bottom .itme6 a {}
+main .contents3 .item .item_bottom .itme6 a img {}
+main .contents3 .item .item_bottom .itme6 h2 {}
+main .contents3 .item .item_bottom .itme6 p {}
+main .contents3 .item .item_bottom .itme6 p em {}
+main .contents3 .item .item_bottom .itme6 .item4_info6 {}
+main .contents3 .item .item_bottom .itme6 .item4_info6 span {} 
+main .contents3 .item .item_bottom .itme6 .item4_info6 strong {} 
+main .contents3 .item .item_bottom .itme6 .item4_info6 {} 
+main .contents3 .item .item_bottom .itme6 .item4_info6 span {}
 /* contents4 */
-main .c4_bg {}
+main .c4_bg {
+    width: 1440px;
+    height: 284px;
+}
 main .c4_bg img {}
-main .c4_bg em {}
-main .c4_bg span {}
-main .c4_bg span a {}
-
+main .c4_bg .contetns4 {}
+main .c4_bg .contetns4 em {}
+main .c4_bg .contetns4 p {}
+main .c4_bg .contetns4 p a {}
 /* footer */
-footer {}
-/* fnb */
-footer #fnb {}
-footer #fnb ul {}
-footer #fnb ul li {}
-footer #fnb ul li a {}
-footer #fnb ul li a em {}
+footer .fnb {}
+footer .fnb a {}
+footer .fnb a em {}
 footer address {}
