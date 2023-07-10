@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>test</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <style>
+        html,body {
+            /* background: rgb(121, 199, 199) url(./image/news_img08.jpg) no-repeat fixed center bottom;
+            background-size: 900px; */
+            background: pink url(./image/banner_traffic.gif) no-repeat fixed center top;
+            background-size: 800px;
+            height: 300%;
+        }
+        #bg {
+            background-color: rgba(255,255,255,0.8);
+            position: relative;
+        }
+        #bg p {
+            background: yellow url(./image/news_img02.jpg) no-repeat;
+            height: 200px; 
+            border: 5px solid black;
+            width: 400px;
+        }
+        #bg p:nth-child(2) {
+            boreder-color: red;
+            position: relative;
+            left: 100px;
+        }
+        #bg p:nth-child(3) {
+            background-repeat: repeat-x;
+            position: absolute;
+            right:0; bottom:0;
+        }
+    </style>
+</head>
+<body>
+    <div id="bg">
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+    <h1>Vs code Emmet</h1>
+    <p><em>부모>자식</em></p>
+    <p><span>1</span><span>2</span></p>
+    <!-- ul>li*4>a -->
+    <ul>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+    </ul>
+    <!-- div>p*5 -->
+    <div>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+    <!-- header>h1+nav+p -->
+    <header>
+        <h1>1</h1>
+        <nav>2</nav>
+        <p>3</p>
+    </header>
+    <!-- div.test>p>em -->
+    <div class="test">
+        <p><em></em></p>
+    </div>
+    <!-- div#box>section.contents>h1+p -->
+    <div id="box">
+        <section class="contents">
+            <h1></h1>
+            <p></p>
+        </section>
+    </div>
+    <img src="./image/banner_01.jpg" alt="한눈에 보는 코로나19생활경제 지원 정책">
+    <video src="#"></video>
+    <form action="#" method="post">form:post</form>rm
+    <input type="text">
+    <button>button</button>
+    <button type="submit">submit</button>
+    <label for=""><input type="checkbox" name="" id=""></label>
+    <!-- table>thead>tr>th*2 -->
+    <table>
+        <thead>
+            <th>
+                <th></th>
+                <th></th>
+            </th>
+            <!-- tbody>tr>td*2 -->
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </thead>
+    </table>
+    <!-- div.right>form:post#langFrm+div.weather -->
+    <!-- fieldset>legend+select+button -->
+    <!-- option*2 -->
+    <!-- p.current_weather+p.dust -->
+    <div class="right">
+        <form action="" method="post" id="langFrm"></form>
+        <fieldset>
+            <legend></legend>
+            <selcet></selcet>
+            <option value=""></option>
+            <option value=""></option>
+            <button></button>
+        </fieldset>
+        <div class="weather"></div>
+            <p class="current_weather"></p>
+            <p class="dust"></p>
+    </div>
+</body>
+</html>
