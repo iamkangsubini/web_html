@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>flex-02</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <style>
+        .container {
+            width: 700px;
+            height: 500px;
+            background: lemonchiffon;
+            padding: 10px;
+            /* display:flex;
+            flex-flow:row wrap;
+            justify-content:center;
+            align-content:center; */
+            display: flex;
+            flex-flow: row-reverse nowrap;
+            justify-content: flex-start;
+            align-items: flex-end;
+            /* display: flex;
+            flex-flow: row-reverse wrap;
+            justify-content: flex-start;
+            align-content: center;
+            width: 500px; */
+            /* display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-end;
+            align-content: space-between;
+            width: 500px; */
+        }
+        .container .item {
+            font-size: 4rem;
+            /* width: 200px;
+            height: 200px; */
+            border: 2px solid #000;
+            text-align: center; line-height: 200px;
+            flex: 3;
+        }
+        .container .item:first-child {
+            /* 정렬 아이템 기준
+            dispaly:flex는 아이템의 부모한테만! */
+        }
+        .container .item:nth-child(2) {
+            order: 5;
+        }
+        .container .item:nth-child(3) {
+            align-self: flex-start;
+        }
+        .container .item:last-child {
+            flex: 5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+</body>
+</html>

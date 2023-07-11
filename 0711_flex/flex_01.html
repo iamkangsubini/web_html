@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>flex-01</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <style>
+        #wrap {}
+        #wrap section {}
+        #wrap section h1 {}
+        #wrap section .contents {/* container */
+            background-color: antiquewhite;
+            /* flex 적용 전 필수준비사항!! */
+            display: flex;/* 부모 container에 flex 적용 전 필수준비사항!! */
+            /* flex-direction: row;
+            flex-wrap: nowrap; 두개를 묶어서 flow */
+            flex-flow: row nowrap;
+            /* justfy-content 메인축정렬
+            메인축 방향 여유공간이 있어야 정렬확인가능 */
+            justify-content: space-around;
+            /* align-content 교차축2줄이상일때 정렬(교차축 방향 여유공간 있어야 정렬확인가능) */
+            align-items: center;
+            height: 600px;
+        }
+        #wrap section .contents li {/* item */
+            background: lightpink;
+            width: 200px;
+            height: 200px;
+            font-size: 3rem;
+            text-align: center;
+            line-height: 200px;
+            border-radius: 20px;
+        }
+        /* flex의 메인축, 교차축 개념 */
+        /* container(부모) item(자식) 개념으로 item이 정렬된 방향이 메인축(main axis), item이 가로지르는 방향이 교차축(cross axis), 교차축이 어렵다면 메인축의 반대방향이라 암기하기!  */
+    </style> 
+</head>
+<body>
+    <div id="wrap">
+        <section>
+            <h1>제목</h1>
+            <ul class="contents">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
