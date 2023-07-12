@@ -12,9 +12,9 @@ form,fieldset,legend,input,select,option,button,label,textarea
     font-size:16px; font-style:normal; font-weight:normal; text-decoration:none;
 }
 th {text-align:left;}
-table,tr,th,td {border-collase:collapse;}
+table,tr,th,td {border-collapse: collapse;}
 ul,ol,li {list-style:none;}
-a {color:#000}
+a {color:#000; text-decoration: none;}
 input {outline:none; border:0;}
 button {cursor:pionter; border:0;}
 fieldset {border:0;}
