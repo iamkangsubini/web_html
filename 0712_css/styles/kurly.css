@@ -1,0 +1,127 @@
+/* rgb(95 3 128) */
+/* 1050px */
+/* header-sprite 공통그룹선택자 */
+header .title .logo h1,
+header .title .searchFrm fieldset #search_btn,
+header .title .lnb a,
+header .bottom .all_nav .menu {
+    background: lightpink url(../image/kurly_img/icon_set2.png);
+    display: inline-block;
+    text-indent: -9999px;
+    width: 36px;
+    height: 36px;
+}
+header {
+    background-color: antiquewhite;
+    margin: 0 auto;
+    width: 1050px;
+}
+.h_top_bg {
+    background-color: rgb(95 3 128);
+}
+.h_top_bg .top {
+    height: 42px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.h_top_bg .top .adver {
+    color: #fff;
+}
+.h_top_bg .top .adver em {
+    font-weight: 700;
+}
+.h_top_bg .top .close {
+    position: absolute roghe0;
+}
+.h_top_bg .top .close .fa-solid {}
+/* header-user */
+header .user {
+    height: 35px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+header .user .join {}
+header .user .join em {}
+header .user .login {}
+header .user .center {}
+/* header-title */
+header .title {
+    height: 63px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header .title .logo {
+    display: flex;
+    flex-flow: row nowrap;
+}
+header .title .logo h1 {
+    background-position: 0 -158px;
+    width: 82px;
+    height: 42px;
+}
+header .title .logo .kind {}
+header .title .logo .kind .market {}
+header .title .logo .kind .market em {}
+header .title .logo .kind .beauty {}
+header .title .searchFrm {
+    border: 1px solid rgb(95 3 128);
+    border-radius: 5px;
+    width:350px;
+}
+header .title .searchFrm fieldset {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+header .title .searchFrm fieldset .skip {}
+header .title .searchFrm fieldset #search_txt {}
+header .title .searchFrm fieldset #search_btn {
+    background-position: 0 -122px;
+}
+header .title .lnb {}
+header .title .lnb .map {
+    background-position: 0 -86px;
+}
+header .title .lnb .map .fa-solide {}
+header .title .lnb .like {
+    background-position: 0 -50px;
+}
+header .title .lnb .like .fa-solid {}
+header .title .lnb .basket {
+    background-position: 0 -14px;
+}
+header .title .lnb .basket .fa-solid {}
+/* header-bottom */
+header .bottom {
+    height: 56px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header .bottom .all_nav {}
+header .bottom .all_nav .menu {
+    width: 16px;
+    height: 14px;
+    background-position: 0 0;
+}
+header .bottom .all_nav .menu .fa-solid {}
+header .bottom .all_nav span {}
+header .nav {}
+header .nav .new {}
+header .nav .best {}
+header .nav .savuing {}
+header .nav .benefit {}
+header .right {}
+header .right .shipping {}
+header .right .shipping em {}
+header .right .shipping em .fa-circle {
+    font-size: 1px;
+}
+header .right .shipping span {}
