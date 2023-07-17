@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>respon_6</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <style>
+        main {
+            background: lightgray;
+            max-width: 1200px;
+            min-width: 320px;
+            margin: 0 auto;
+        }
+        main h1 {
+            padding: 20px 0;
+            text-align: center;
+            font-size: 1.875rem
+        }
+        main .products {
+            background-color: rgb(119, 223, 255);
+            display: flex;
+            flex-flow: row wrap;
+        }
+        main .products a {
+            background: pink;
+            display: flex;
+            flex-flow: column nowrap;
+            margin-right: 20px;
+            width: calc(25% - 60px / 4);
+        }
+        main .products a:nth-child(4n) {
+            margin-right: 0;
+        }
+        main .products a * {line-height: 30px; font-size:1.25rem}
+        main .products a img {}
+        main .products a em {}
+        main .products a .price {}
+        main .products a .desc {}
+        /* 반응형웹 조건 */
+        @media (max-width:744px) {
+            main {
+                width: calc(100% - 30px);
+            }
+            main .products a,
+            main .products a:nth-child(4n) {
+                width: calc(33.33% - 40px / 3);
+                margin-right: 20px;
+            /* 반응형 처리에선 가능한 모든 레이아웃을 고정 -> 가변형으로 변경해야 한다. */
+            /* 
+                1. 정렬 item의 개수 파악 후 ex)3개라면 부모너비 100% / 33.33 값을 계산한다.
+                2. item  사이 여백이 몇인지 px값을 체크한다. ex)20px
+                3.(2)번에서 확인한 여백이 총 몇번 적용되는지 확인한다. ex)2
+                4. 지금까지 나온 값을 모두 종합해서 calc 계산법을 적용한다.
+                5. calc(크기% - 총여백값 / 아이템한줄개수);
+                clac(33.33% - 40px / 3);
+            */
+            }
+            main .products a:nth-child(3n) {
+            margin-right: 0;
+            }/* 태블릿 조건 종료 */
+        @media (max-width:430px) {
+            main .products a,
+            main .products a:nth-child(3n),
+            main .products a:nth-child(4n) {
+                width: calc(50% - 20px / 2);
+                margin-right: 20px;
+            }
+            main .products a:nth-child(2n) {
+            margin-right: 0;
+            }/* 모바일 조건 종료 */
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>BEST</h1>
+        <div class="products">
+            <a href="#">
+                <img src="https://picsum.photos/id/1/285" alt="">
+                <em>상품명</em>
+                <span class="price">10,000원</span>
+                <span class="desc">설명...</span>
+            </a>
+            <a href="#">
+                <img src="https://picsum.photos/id/2/285" alt="">
+                <em>상품명</em>
+                <span class="price">10,000원</span>
+                <span class="desc">설명...</span>
+            </a>
+            <a href="#">
+                <img src="https://picsum.photos/id/3/285" alt="">
+                <em>상품명</em>
+                <span class="price">10,000원</span>
+                <span class="desc">설명...</span>
+            </a>
+            <a href="#">
+                <img src="https://picsum.photos/id/4/285" alt="">
+                <em>상품명</em>
+                <span class="price">10,000원</span>
+                <span class="desc">설명...</span>
+            </a>
+            <a href="#">
+                <img src="https://picsum.photos/id/5/285" alt="">
+                <em>상품명</em>
+                <span class="price">10,000원</span>
+                <span class="desc">설명...</span>
+            </a>
+            <a href="#">
+                <img src="https://picsum.photos/id/6/285" alt="">
+                <em>상품명</em>
+                <span class="price">10,000원</span>
+                <span class="desc">설명...</span>
+            </a>
+        </div>
+    </main>
+</body>
+</html>

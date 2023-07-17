@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>respon_4</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <style>
+        .layout {
+            max-width: 1000px;
+            min-width: 320px;
+            background: rgb(255, 255, 156);
+            height: 100vh;
+        }
+        .layout p {
+            text-align: center;
+            font-size: 2rem;
+            line-height: 2.0;
+        }
+        @media (min-width:481px) {
+            .layout {background: pink;}
+            .layout p {font-size: 2.5rem;}
+        }/* 481 이상일 때 조건 */ 
+        @media (min-width:768px) {
+            .layout {background: rgb(136, 136, 255);}
+            .layout p {font-size: 3rem;}
+        }/* 768 이상일 때 조건 */
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <p>모바일:노랑</p>
+        <p>태블릿:분홍</p>
+        <p>데스크탑:파랑</p>
+    </div>
+</body>
+</html>

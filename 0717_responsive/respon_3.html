@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>respon_3</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <style>
+        header, main, footer {
+            text-align: center;
+            padding: 20px;
+            max-width: 1000px;
+            min-width: 320px;
+            margin: 0 auto;
+        }
+        header {
+            background: antiquewhite;
+            height: 10vh;
+            /* vh == viewport height
+                vw == viewport width
+                view == 사용자가 보는 화면영역 */
+        }
+        main {
+            background: lightblue;
+            height: 80vh;
+        }
+        main h1 {}
+        main p {}
+        footer {
+            background: pink;
+            height: 10vh;
+        }
+        @media (max-width: 768px) {
+            /* 768이하일때 조건 시작 */
+            header {background: blue;}
+            main {background: lightcoral;}
+            footer {background: forestgreen;}
+        }/* 768이하일때 조건 종료 */
+        @media (max-width:480px) {
+            main {border: 5px solid #000;}
+            main h1 {font-size: 3rem;}
+        }/* 480이하일 때 조건 종료 */
+        /* 반응형 웹 media */
+    </style>
+</head>
+<body>
+    <header>HEADER</header>
+    <main>
+        <h1>제목</h1>
+        <p>내용</p>
+    </main>
+    <footer>footer</footer>
+</body>
+</html>
