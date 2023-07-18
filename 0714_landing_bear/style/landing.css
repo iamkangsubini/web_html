@@ -1,0 +1,388 @@
+/* titel */
+.title_bg {
+    background: url(../images/bg1.png) no-repeat fixed center 70%;
+    background-size: cover;
+    position: relative;
+}
+.title_bg::after {
+    content: '';
+    display: block;
+    height: 800px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0.7) 0%, rgba(0,0,0,0.7) 70%);
+    position: absolute;
+    left: 0; top: 0;
+    width: 100%;
+    z-index: 90;
+    /* absolute 적용 시 기본 blcok w100% inline처럼 변한다. */
+    width: 100%;
+}
+.title_bg .title {
+    z-index: 100; position: relative;
+    /* z-index란 맨위로 위치를 바꾸고 싶은때! -1 ~ 999까지 사용이 가능하고 position이 필수임!!! */
+    background-color: rgba(255,255,0,0.5);
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.title_bg .title .logo {
+    align-self: flex-start;
+    width: 50px;
+    height: 50px;
+}
+.title_bg .title .logo img {
+    width: 100%;
+}
+.title_bg .title h1 {
+    text-align: center;
+    color: #fff;
+    line-height: 90px;
+    letter-spacing: -0.04em;
+    font-weight: 500;
+    font-size: 3.157rem;
+    margin: 225px 0 40px;
+}
+.title_bg .title h1 em {
+    font-weight: 700;
+    font-size: 3.157rem;
+}
+.title_bg .title .sponsor_btn {
+    background: rgb(255,147,0);
+    background: linear-gradient(90deg, rgba(255,147,0,1) 0%, rgba(255,114,0,1) 100%);
+    width: 394px;
+    height: 86px;
+    border-radius: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.title_bg .title .sponsor_btn span {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.777rem;
+    letter-spacing: -0.04em;
+    margin-right: 10px;
+}
+.title_bg .title .sponsor_btn img {
+    width: 20px;
+    width: 20px;
+}
+.title_bg .title .sponsor_qu {
+    align-self: flex-end;
+    background-color: #222;
+    width: 405px;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.title_bg .title .sponsor_qu img {
+    width: 20px;
+    height: 20px;
+}
+.title_bg .title .sponsor_qu span {
+    font-size: 1.333rem;
+    color: #fff;
+    letter-spacing: -0.04em;
+    margin: 0 10px;
+}
+.title_bg #snow {
+    position: absolute;
+    left: 0; top: 0;
+    height: 800px;
+    width: 100%;
+    z-index: 200;
+}
+/* quiz */
+.quiz_bg {
+    background: url(../images/quiz_bg.png) no-repeat fixed center;
+    background-size: cover;
+}
+.quiz_bg .quiz {
+    width: 1200px;
+    height: 584px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.quiz_bg .quiz .left {
+    width: 487px;
+    height: 400px;
+    text-align: center;
+}
+.quiz_bg .quiz .left h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 3.157rem;
+    letter-spacing: -0.04em;
+    margin-bottom: 35px;
+}
+.quiz_bg .quiz .left h3 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.333rem;
+    letter-spacing: -0.04em;
+    margin-bottom: 35px;
+}
+.quiz_bg .quiz .left #quiz_frm {
+    text-align: left;
+}
+.quiz_bg .quiz .left #quiz_frm fieldset {}
+.quiz_bg .quiz .left #quiz_frm fieldset ul {}
+.quiz_bg .quiz .left #quiz_frm fieldset ul li {}
+.quiz_bg .quiz .left #quiz_frm fieldset ul li label {}
+.quiz_bg .quiz .left #quiz_frm fieldset ul li label input {
+    appearance: none; /* form input 요소 숨기기 */
+}
+.quiz_bg .quiz .left #quiz_frm fieldset ul li label span {
+    background: url(../images/quiz_uncheck.png) no-repeat;
+    padding-left: 34px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.333rem;
+    letter-spacing: -0.04em;
+    line-height: 50px;
+}
+/* 상태선택자 (radio check될 경우 span의 이미지 변경하기) */
+.quiz_bg .quiz .left #quiz_frm fieldset ul li label:checked+span {
+    background: rgb(156, 43, 62) url(../images/quiz_uncheck.png) no-repeat;
+    
+}
+.quiz_bg .quiz .left #quiz_frm fieldset #answer_btn {
+    background-color: #222;
+    color: #fff;
+    font-weight: 500; 
+    font-size: 1.333rem;
+    letter-spacing: -0.04em;
+    width: 484px;
+    height: 59px;
+    border-radius: 40px;
+}
+.quiz_bg .quiz .right {
+    width: 550px;
+    height: 308px;
+    text-align: center;
+}
+.quiz_bg .quiz .right h2 {
+    background-color: #FF7200;
+    width: 550px;
+    height: 80px;
+    padding: 27px 155px;
+    border-radius: 20px 20px 0 0;
+}
+.quiz_bg .quiz .right h2 img {}
+.quiz_bg .quiz .right h2 span {
+    font-weight: 500;
+    color: #fff;
+    font-size: 1.777rem;
+    letter-spacing: -0.04em;
+    margin-left: 10px;
+}
+.quiz_bg .quiz .right .contents {
+    background-color: #fff;
+    width: 550px;
+    height: 183px;
+    border-radius: 0 0 20px 20px;
+    padding: 55px 74.5px;
+}
+.quiz_bg .quiz .right .contents em {
+    font-size: 5rem;
+    color: #ff7200;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+.quiz_bg .quiz .right .contents span {}
+.quiz_bg .quiz .right .contents span:nth-child(2) {
+    font-size: 3.157rem;
+    color: #ff7200;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+.quiz_bg .quiz .right .contents span:last-child {
+    font-size: 3.157rem;
+    color: #222;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    margin-left: ;
+}
+.quiz_bg .quiz .right p {
+    color: #fff;
+    letter-spacing: -0.04em;
+    margin-top: 30px;
+}
+/* video */
+    .video_bg {
+        background: url(../images/video_bg.png) no-repeat fixed center;
+        background-size: cover;
+    }
+    .video_bg .video {
+        width: 1200px;
+        height: 1022px;
+        margin: 0 auto;
+        padding: 0 120px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .video_bg .video h2 {
+        color: #000;
+        font-weight: 500;
+        font-size: 3.157rem;
+        letter-spacing: -0.04em; 
+        line-height: 90px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .video_bg .video iframe {
+        width: 800px;
+        height: 500px;
+        margin-bottom: 50px;
+    }
+    .video_bg .video .sponsor_btn {
+        background: linear-gradient(90deg, rgba(255,147,0,1) 0%, rgba(255,114,0,1) 100%);
+        width: 394px;
+        height: 86px;
+        border-radius: 50px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .video_bg .video .sponsor_btn span {
+        font-weight: 500;
+        font-size: 1.777rem;
+        letter-spacing: -0.04em;
+        color: #fff;
+        margin-right: 10px ;
+    }
+    .video_bg .video .sponsor_btn img {}
+    /* down */
+    .down_bg {
+        background: url(../images/50_bg.png) no-repeat fixed center;
+        background-size: cover;
+    }
+    .down_bg .down {
+        padding: 100px 0;
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;        
+    }
+    .down_bg .down h2 {
+        color: #fff;
+        font-weight: 500;
+        font-size: 3.157rem;
+        line-height: 90px;
+        letter-spacing: -0.04em;
+        margin-bottom: 50px;
+    }
+    .down_bg .down h2 span {
+        color: #000;
+        font-size: 3.157rem;
+        font-weight: 500;
+        letter-spacing: -0.04em; 
+        background-color: #fff;
+        padding: 0.5px 5px;
+    }
+    .down_bg .down p {
+        color: #fff;
+        font-weight: 500;
+        font-size: 1.777rem;
+        line-height: 50px;
+        letter-spacing: -0.04em;
+        margin-bottom: 50px;
+    }
+    .down_bg .down img {
+        width: 1200px;
+        height: 600px;
+    }
+    /* damage */
+    .damage_bg {
+        background: #f1f1f1;
+    }
+    .damage_bg .damage {
+        width: 1200px;
+        height: 1023px;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        text-align: center;
+        padding: 100px 0;
+    }
+    .damage_bg .damage h2 {
+        color: #000;
+        font-weight: 500;
+        font-size: 3.157rem;
+        letter-spacing: -0.04em;
+        margin-bottom: 80px;
+    }
+    .damage_bg .damage p {
+        color: #000;
+        font-size: 1.777rem;
+        font-weight: 500;
+        line-height: 50px;
+        letter-spacing: -0.04em;
+        margin-bottom: 80px;
+    }
+    .damage_bg .damage .contents {
+        display: flex;
+        flex-flow: row nowrap;
+    } 
+    .damage_bg .damage .contents li {
+        width: calc(33.33% - 40 / 3);
+        margin-right: 19.5px
+        /* 중요 */
+    }
+    .damage_bg .damage .contents li:last-child {
+        margin-right: 0;
+    }
+    .damage_bg .damage .contents li .top {
+        width: 387px;
+        height: 336px;
+        padding: 40px 22.5px 200px;
+        background: center 50%;
+        background-size: cover;
+    }
+    .damage_bg .damage .contents li:nth-child(1) .top {
+        background-image: url(../images/28.png);
+    }
+    .damage_bg .damage .contents li:nth-child(2) .top {
+        background-image: url(../images/27.png)
+    }
+    .damage_bg .damage .contents li:nth-child(3) .top {
+        background-image: url(../images/28.png)
+    }
+    .damage_bg .damage .contents li .top h3 {
+        color: #fff;
+        font-size: 3.157rem;
+        font-weight: 700;
+        letter-spacing: -0.04em;
+        margin-bottom: 24px;
+    }
+    .damage_bg .damage .contents li .top p {
+        color: #fff;
+        font-weight: 500;
+        font-size: 1.777rem;
+        letter-spacing: -0.04em;
+    }
+    .damage_bg .damage .contents li .list_contents {
+        background-color: #fff;
+        padding: 35px 30px;
+        color: #000;
+        line-height: 30px;
+        letter-spacing: -0.04em;
+        width: 387px;
+        height: 205px; 
+    }
