@@ -1,0 +1,646 @@
+/* shizuoka background */
+.bg {
+    background: url(../images/prototype_bg.jpg) no-repeat center 8%;
+    background-size: cover;
+}
+/* title */
+.bg .title {
+    width: 1000px;
+    height: 879px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.bg .title .advice {
+    width: 178px;
+    height: 89px;
+    color: #fff;
+    font-family: 동콩_굵게;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    align-self: flex-start;
+    margin: 74px 0 0 0;
+}
+.bg .title .important {
+    text-align: center;
+    width: 529px;
+    height: 268px;
+    margin-top: 57px;
+}
+.bg .title .important h2 {
+    font-family: 혼;
+    font-size: 3.157rem;
+    color: #fff;
+    letter-spacing: -0.02em;
+    margin-bottom: 33px;
+}
+.bg .title .important h1 {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.bg .title .important h1 img {}
+.bg .title .important h1 img:nth-child(1) {
+    width: 476px;
+    height: 97px;
+    margin-bottom: 21px;
+}
+.bg .title .important h1 img:nth-child(2) {
+    width: 80px;
+    height: 69px;
+    align-self: center;
+}
+.bg .title .important .symbol {
+    color: #fff;
+    font-family: 동콩_굵게;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+}
+/* video */
+.bg .video {
+    width: 1000px;
+    height: 668px;
+    margin: 0 auto;
+    padding: 90px 0;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.bg .video h2 {
+    text-align: center;
+    font-family: 동콩_기본;
+    color: #fff;
+    line-height: 55px;
+    font-size: 2.369rem;
+    letter-spacing: -0.02em;
+    margin-bottom: 50px;
+}
+.bg .video h2 em {
+    font-family: 혼;
+    font-size: 3.157rem;
+}
+.bg .video iframe {
+    width: 550px;
+    height: 350px;
+}
+/* quiz */
+.bg .quiz {
+    width: 1000px;
+    height: 654px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.bg .quiz .left {
+    margin-right: 82px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.bg .quiz .left h2 {
+    font-family: 혼;
+    font-size: 3.157rem;
+    letter-spacing: -0.02em;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.bg .quiz .left h3 {
+    font-family: 동콩_굵게;
+    font-size: 1.333rem;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.bg .quiz .left #quiz_frm {}
+.bg .quiz .left #quiz_frm fieldset {}
+.bg .quiz .left #quiz_frm fieldset ul {}
+.bg .quiz .left #quiz_frm fieldset ul li {
+    margin-bottom: 15px;
+}
+.bg .quiz .left #quiz_frm fieldset ul li:last-child {
+    margin-bottom: 0;
+}
+.bg .quiz .left #quiz_frm fieldset ul li label {}
+.bg .quiz .left #quiz_frm fieldset ul li label span {
+    font-family: 동콩_기본;
+    font-size: 1.333rem;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+.bg .quiz .left #quiz_frm fieldset ul li label #q1 {
+    background: url(../images/un_check.png) no-repeat fixed center;
+}
+.bg .quiz .left #quiz_frm fieldset ul li label #q2 {}
+.bg .quiz .left #quiz_frm fieldset ul li label #q3 {}
+.bg .quiz .left #quiz_frm fieldset ul li label #q4 {}
+.bg .quiz .left #quiz_frm fieldset ul li label #q5 {}
+.bg .quiz .left #quiz_frm fieldset #answer_btn {
+    font-family: 동콩_굵게;
+    font-size: 1.333rem;
+    letter-spacing: -0.02em;
+    color: #fff;
+    background-color: #9cc83a;
+    border-radius: 10px;
+    padding: 20px 141.5px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all 1s;
+}
+.bg .quiz .left #quiz_frm fieldset #answer_btn:hover {
+    font-family: 동콩_굵게;
+    font-size: 1.777rem;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+.bg .quiz .right {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.bg .quiz .right h2 {
+    background-color: #9cc83a;
+    border-radius: 10px 10px 0 0;
+    padding: 25px 149px;
+}
+.bg .quiz .right h2 img {
+    width: 16px;
+    height: 16px;
+    margin-right: 14px;
+}
+.bg .quiz .right h2 span {
+    font-family: 동콩_굵게;
+    font-size: 1.333rem;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+.bg .quiz .right .contents {
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+    padding: 50px 115px;
+}
+.bg .quiz .right .contents em {
+    font-family: 동콩_굵게;
+    font-size: 3.157rem;
+    letter-spacing: -0.02em;
+    color: #9cc83a;
+}
+.bg .quiz .right .contents span {}
+.bg .quiz .right .contents span:nth-child(2) {
+    font-family: 동콩_기본;
+    font-size: 2.369rem;
+    letter-spacing: -0.02em;
+    color: #9cc83a;
+}
+.bg .quiz .right .contents span:last-child {
+    font-family: 동콩_기본;
+    font-size: 2.369rem;
+    letter-spacing: -0.02em;
+    color: #000;
+}
+.bg .quiz .right .update {
+    margin-top: 20px;
+    color: #fff;
+    font-family: 동콩_기본;
+    letter-spacing: -0.02em;
+}
+/* attraction */
+.bg .attraction {
+    width: 1000px;
+    height: 1675px;
+    margin: 0 auto;
+    padding: 90px 0;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.bg .attraction h2 {
+    margin-bottom: 50px;
+}
+.bg .attraction h2 span {
+    font-family: 동콩_굵게;
+    font-size: 3.157rem;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+.bg .attraction h2 em {
+    font-family: 혼;
+    font-size: 5.000rem;
+    letter-spacing: -0.02em;
+    color: #fff;
+    background: #83caf9;
+    padding: 3px 7px;
+}
+.bg .attraction .contents {
+    width: 870px;
+    height: 300px;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 50px;
+}
+.bg .attraction .contents .left {
+    width: 300px;
+    height: 300 px;
+    background: #9cc83a;
+    padding: 23px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+.bg .attraction .contents .left img {}
+.bg .attraction .contents .right {
+    padding: 15.5px 0;
+}
+.bg .attraction .contents .right h3 {
+    font-family: 동콩_굵게;
+    font-size: 2.369rem ;
+    letter-spacing: -0.02em;
+    color: #fff;
+    margin-bottom: 45px;
+}
+.bg .attraction .contents .right .detail {}
+.bg .attraction .contents .right .detail span {
+    font-family: 동콩_기본;
+    font-size: 1.333rem;
+    letter-spacing: -0.02em;
+    color: #fff;
+    display: inline-block;
+}
+.bg .attraction .contents .right .detail span:nth-child(1) {
+    margin-bottom: 45px;
+}
+.bg .attraction .contents .right .detail span:nth-child(2) {
+    margin-bottom: 60px;
+}
+.bg .attraction .contents .right .care_btn {
+    font-family: 동콩_굵게;
+    font-size: 1.333rem;
+    letter-spacing: -0.02em;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 20px 10px;
+}
+.bg .attraction .contents2 {
+    width: 870px;
+    height: 300px;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 50px;
+}
+.bg .attraction .contents2 .left {
+    padding: 59.5px 0;
+    text-align: right;
+}
+.bg .attraction .contents2 .left h3 {
+    font-family: 동콩_굵게;
+    font-size: 2.369rem;
+    letter-spacing: -0.02em;
+    color: #fff;
+    margin-bottom: 60px;
+}
+.bg .attraction .contents2 .left .detail2 {}
+.bg .attraction .contents2 .left .detail2 span {
+    font-family: 동콩_기본;
+    font-size: 1.333rem;
+    letter-spacing: -0.02em;
+    color: #fff;
+    display: inline-block;
+}
+.bg .attraction .contents2 .left .detail2 span:nth-child(1) {
+    margin-bottom: 45px;
+}
+.bg .attraction .contents2 .right {
+    width: 300px;
+    height: 300px;
+    background: #9cc83a;
+    padding: 23px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.bg .attraction .contents2 .right img {}
+.bg .attraction .contents3 {
+    width: 870px;
+    height: 300px;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 50px;
+}
+.bg .attraction .contents3 .left {
+    width: 300px;
+    height: 300 px;
+    background: #9cc83a;
+    padding: 23px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+.bg .attraction .contents3 .left img {}
+.bg .attraction .contents3 .right {
+    padding: 32px 0;
+}
+.bg .attraction .contents3 .right h3 {
+    font-family: 동콩_굵게;
+    font-size: 2.369rem;
+    line-height: 55px;
+    letter-spacing: -0.02em;
+    color: #fff;
+    margin-bottom: 35px;
+}
+.bg .attraction .contents3 .right .detail3 {}
+.bg .attraction .contents3 .right .detail3 span {
+    font-family: 동콩_기본;
+    font-size: 1.333rem;
+    letter-spacing: -0.02em;
+    color: #fff;
+    display: inline-block;
+}
+.bg .attraction .contents3 .right .detail3 span:nth-child(1) {
+    margin-bottom: 45px;
+}
+.bg .attraction .contents4 {
+    width: 870px;
+    height: 300px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.bg .attraction .contents4 .left {
+    padding: 14.5px 0;
+    text-align: right;
+}
+.bg .attraction .contents4 .left h3 {
+    font-family: 동콩_굵게;
+    font-size: 2.369rem;
+    line-height: 55px;
+    letter-spacing: -0.02em;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.bg .attraction .contents4 .left .detail4 {}
+.bg .attraction .contents4 .left .detail4 span {
+    font-family: 동콩_기본;
+    font-size: 1.333rem;
+    letter-spacing: -0.02em;
+    color: #fff;
+    display: inline-block;
+}
+.bg .attraction .contents4 .left .detail4 span:nth-child(1) {
+    margin-bottom: 45px;
+    line-height: 30px;
+}
+.bg .attraction .contents4 .right {
+    width: 300px;
+    height: 300px;
+    background: #9cc83a;
+    padding: 23px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.bg .attraction .contents4 .right img {}
+/* food */
+.bg .food {
+    width: 1000px;
+    height: 1337px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.bg .food h2 {
+    font-family: 동콩_굵게;
+    font-size: 3.157rem;
+    letter-spacing: -0.02em;
+    color: #fff;
+    margin: 90px 0 50px;
+}
+.bg .food .contents {
+    width: 1000px;
+    height: 458px;
+    margin-bottom: 79px;
+    position: relative;
+}
+.bg .food .contents img {
+    width: 550px;
+    height: 250px;
+    position: absolute;
+    top: 28px; right: 118px;
+}
+.bg .food .contents img:nth-child(2) {
+    width: 300px;
+    height: 308px;
+    position: absolute;
+    top: 150px; left: 107px;
+}
+.bg .food .contents .alcohol {
+    width: 359px;
+    height: 308px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 150px; right: 214px;
+}
+.bg .food .contents .alcohol h3 {
+    font-family: 동콩_굵게;
+    font-size: 1.777rem;
+    letter-spacing: -0.04em;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.bg .food .contents .alcohol p {
+    font-family: 동콩_기본;
+    line-height: 30px;
+    letter-spacing: -0.04em;
+    color: #fff;
+    text-align: center;
+}
+.bg .food .contents2 {
+    width: 1000px;
+    height: 525px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+.bg .food .contents2 .detail {
+    text-align: center;
+}
+.bg .food .contents2 .detail img {
+    width: 280px;
+    height: 280px;
+    margin-bottom: 26px;
+}
+.bg .food .contents2 .detail h3 {
+    font-family: 동콩_굵게;
+    font-size: 1.777rem;
+    letter-spacing: -0.02em;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.bg .food .contents2 .detail p {
+    font-family: 동콩_기본;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+.bg .food .contents2 .detail2 {
+    text-align: center;
+}
+.bg .food .contents2 .detail2 img {
+    width: 280px;
+    height: 280px;
+    margin-bottom: 26px;
+}
+.bg .food .contents2 .detail2 h3 {
+    font-family: 동콩_굵게;
+    font-size: 1.777rem;
+    letter-spacing: -0.02em;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.bg .food .contents2 .detail2 p {
+    font-family: 동콩_기본;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+.bg .food .contents2 .detail3 {
+    text-align: center;
+}
+.bg .food .contents2 .detail3 img {
+    width: 280px;
+    height: 280px;
+    margin-bottom: 26px;
+}
+.bg .food .contents2 .detail3 h3 {
+    font-family: 동콩_굵게;
+    font-size: 1.777rem;
+    letter-spacing: -0.02em;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.bg .food .contents2 .detail3 p {
+    font-family: 동콩_기본;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+/* event */
+.bg .event {
+    width: 1000px;
+    height: 962px;
+    margin: 0 auto;
+    padding: 90px 0;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.bg .event p {
+    font-family: 동콩_기본;
+    font-size: 1.333rem;
+    letter-spacing: -0.02em;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.bg .event h2 {
+    font-family: 동콩_굵게;
+    font-size: 3.157rem;
+    letter-spacing: -0.02em;
+    color: #fff;
+    margin-bottom: 60px;
+}
+.bg .event h2 em {
+    font-family: 혼;
+    font-size: 5.000rem;
+    letter-spacing: -0.02em;
+    color: #83caf9;
+}
+.bg .event .contents {
+    width: 830px;
+    height: 282px;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 60px;
+}
+.bg .event .contents .left {
+    width: 277px;
+    height: 282px;
+}
+.bg .event .contents .left img {
+    width: 100%;
+}
+.bg .event .contents .right {
+    width: 553px;
+    height: 282px;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #fff;
+    border-radius: 0 10px 10px 0;
+}
+.bg .event .contents .right h3 {
+    font-family: 동콩_굵게;
+    font-size: 1.333rem;
+    letter-spacing: -0.02em;
+    color: #000;
+    margin: 55px 0 0 15px;
+}
+.bg .event .contents .right .detail {
+    font-family: 동콩_기본;
+    letter-spacing: -0.02em;
+    color: #000;
+    margin: 50px 0 0 15px;
+}
+.bg .event .contents .right .detail span {}
+.bg .event .contents .right .detail span:nth-child(1) {
+    line-height: 30px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.bg .event .contents .right .detail span:nth-child(2) {
+    display: inline-block;
+}
+.bg .event .contents2 {
+    width: 830px;
+    height: 282px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.bg .event .contents2 .left {
+    background-color: #fff;
+    border-radius: 10px 0 0 10px;
+    width: 519px;
+    height: 282px;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: right;
+}
+.bg .event .contents2 .left h3 {
+    font-family: 동콩_굵게;
+    font-size: 1.333rem;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+    color: #000;
+    margin: 37.5px 15px 0 0;
+}
+.bg .event .contents2 .left .detail2 {
+    font-family: 동콩_기본;
+    letter-spacing: -0.02em;
+    color: #000;
+    margin: 50px 15px 0 0;
+}
+.bg .event .contents2 .left .detail2 span {}
+.bg .event .contents2 .left .detail2 span:nth-child(1) {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.bg .event .contents2 .left .detail2 span:nth-child(2) {
+    display: inline-block;
+    line-height: 30px;
+}
+.bg .event .contents2 .right {
+    width: 309px;
+    height: 282px;
+}
+.bg .event .contents2 .right img {
+    width: 100%;
+}
